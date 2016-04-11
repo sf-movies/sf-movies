@@ -1,0 +1,23 @@
+{
+  "name": "sf-movies",
+  "version": "1.0.0",
+  "description": "An application that allows you to search where movies in SF have been filmed.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sf-movies/sf-movies.git"
+  },
+  "keywords": [
+    "SF",
+    "movies"
+  ],
+  "author": "Daniel Russell & Jonathan Tamsut",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sf-movies/sf-movies/issues"
+  },
+  "homepage": "https://github.com/sf-movies/sf-movies#readme"
+}

@@ -1,10 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Navbar from './Components/Navbar.js';
 
 class Main extends React.Component{
   render() {
     return (
-      <h1>Hello world!</h1>
+      <div>
+        <Navbar />
+      </div>
     )
   }
 };

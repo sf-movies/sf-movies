@@ -1,6 +1,5 @@
 import GoogleMap from 'google-map-react';
 import React from 'react';
-import GoogleMap from 'google-map-react'
 
 class Body extends React.Component{
   render(){

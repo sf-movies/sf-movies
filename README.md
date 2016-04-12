@@ -2,6 +2,10 @@
 
 This repository contains a service that shows on a map where movies have been filmed in San Francisco. The user is able to filter the view using autocompletion search.
 
+This is a mock-up:
+
+<img src="./images/sf-movies.jpg">
+
 #How to Run This Code Locally
 
 # Authors
@@ -14,7 +18,7 @@ This project was built by two awesome software engineers:
 
 <br>
 
-<b>Note<b>: We have decided to put the contents of the `contributing.md` in the `README.md`.
+<b>Note</b>: We have decided to put the contents of the `contributing.md` in the `README.md`.
 
 # Git "Forking Workflow"
 

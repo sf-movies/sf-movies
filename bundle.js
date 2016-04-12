@@ -20067,13 +20067,13 @@
 
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-	var _googleMapReact = __webpack_require__(167);
-
-	var _googleMapReact2 = _interopRequireDefault(_googleMapReact);
-
 	var _react = __webpack_require__(1);
 
 	var _react2 = _interopRequireDefault(_react);
+
+	var _googleMapReact = __webpack_require__(167);
+
+	var _googleMapReact2 = _interopRequireDefault(_googleMapReact);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -20094,11 +20094,27 @@
 
 	  _createClass(Body, [{
 	    key: 'render',
+
+
+	    //static defaultProps = {
+	    //   center: {lat: 59.938043, lng: 30.337157},
+	    //   zoom: 9
+	    // }
+
 	    value: function render() {
 	      return _react2.default.createElement(
-	        'div',
-	        null,
-	        'Hello World'
+	        _googleMapReact2.default,
+	        {
+	          bootstrapURLKeys: { key: 'AIzaSyBFiuLTGZSwhBzGqkSdyiQIyqnu1tjb6Ew' },
+	          center: [37.773972, -122.431297],
+	          zoom: 12,
+	          style: { width: '100%', height: 400 }
+	        },
+	        _react2.default.createElement(
+	          'div',
+	          { lat: 59.955413, lng: 30.337844 },
+	          'MyPlace'
+	        )
 	      );
 	    }
 	  }]);

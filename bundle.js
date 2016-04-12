@@ -56,7 +56,15 @@
 
 	var _reactDom2 = _interopRequireDefault(_reactDom);
 
+<<<<<<< 1e9827aa9a690844b315416960c9ac297d0b51c0
 	var _Navbar = __webpack_require__(166);
+=======
+	var _Body = __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"./Components/Body.js\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+
+	var _Body2 = _interopRequireDefault(_Body);
+
+	var _Navbar = __webpack_require__(167);
+>>>>>>> [feature] added google-map-react and Body.js component
 
 	var _Navbar2 = _interopRequireDefault(_Navbar);
 
@@ -80,11 +88,15 @@
 	  _createClass(Main, [{
 	    key: 'render',
 	    value: function render() {
+<<<<<<< 1e9827aa9a690844b315416960c9ac297d0b51c0
 	      return _react2.default.createElement(
 	        'div',
 	        null,
 	        _react2.default.createElement(_Navbar2.default, null)
 	      );
+=======
+	      return _react2.default.createElement(_Body2.default, null);
+>>>>>>> [feature] added google-map-react and Body.js component
 	    }
 	  }]);
 
@@ -20051,6 +20063,7 @@
 	module.exports = ReactMount.renderSubtreeIntoContainer;
 
 /***/ },
+<<<<<<< 1e9827aa9a690844b315416960c9ac297d0b51c0
 /* 166 */
 /***/ function(module, exports, __webpack_require__) {
 
@@ -20110,5 +20123,13 @@
 
 	exports.default = Navbar;
 
+=======
+/* 166 */,
+/* 167 */
+/***/ function(module, exports) {
+
+	"use strict";
+
+>>>>>>> [feature] added google-map-react and Body.js component
 /***/ }
 /******/ ]);

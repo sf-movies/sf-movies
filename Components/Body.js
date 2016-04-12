@@ -1,13 +1,8 @@
-import React from 'react';
+import React, {PropTypes, Component} from 'react';
 import GoogleMap from 'google-map-react';
+import FontAwesome from 'react-fontawesome';
 
 class Body extends React.Component {
-
-  //static defaultProps = {
-  //   center: {lat: 59.938043, lng: 30.337157},
-  //   zoom: 9
-  // }
-
   render(){
     return (
         <GoogleMap
@@ -16,9 +11,8 @@ class Body extends React.Component {
         zoom={12}
         style={{width: '100%', height: 400}}
         >
-        <div lat={59.955413} lng={30.337844}>MyPlace</div>
+        <div lat={37.773972} lng={-122.431297}><FontAwesome name="film" size="2x"/></div>
         </GoogleMap>
-
     );
   }
 }

@@ -2,10 +2,14 @@
   position: fixed;
   top: 100px;
   z-index: 1;
-  height: 4em;
+  height: 2.5em;
   width: 275px;
-  box-shadow: 2px 2px lightgrey;
+  box-shadow: 2px 3px lightgrey;
   border: none;
+  font-size: 1em;
+  padding-left: 10px;
+  border-radius: 2px;
+  outline: none;
 }
 
 .navbar {

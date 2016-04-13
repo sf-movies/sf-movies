@@ -20102,7 +20102,7 @@
 	        _react2.default.createElement(
 	          "form",
 	          null,
-	          _react2.default.createElement("input", { type: "text", placeholder: "FUUUUUUCK" })
+	          _react2.default.createElement("input", { className: "search", type: "text", placeholder: "FUUUUUUCK" })
 	        )
 	      );
 	    }
@@ -20228,6 +20228,26 @@
 	        _react2.default.createElement(
 	          'div',
 	          { lat: 37.773972, lng: -122.431297 },
+	          _react2.default.createElement(_reactFontawesome2.default, { name: 'film', size: '2x' })
+	        ),
+	        _react2.default.createElement(
+	          'div',
+	          { lat: 37.773972, lng: -122.416297 },
+	          _react2.default.createElement(_reactFontawesome2.default, { name: 'film', size: '2x' })
+	        ),
+	        _react2.default.createElement(
+	          'div',
+	          { lat: 37.723972, lng: -122.431297 },
+	          _react2.default.createElement(_reactFontawesome2.default, { name: 'film', size: '2x' })
+	        ),
+	        _react2.default.createElement(
+	          'div',
+	          { lat: 37.778972, lng: -122.459297 },
+	          _react2.default.createElement(_reactFontawesome2.default, { name: 'film', size: '2x' })
+	        ),
+	        _react2.default.createElement(
+	          'div',
+	          { lat: 37.793943, lng: -122.431297 },
 	          _react2.default.createElement(_reactFontawesome2.default, { name: 'film', size: '2x' })
 	        )
 	      );
@@ -25649,7 +25669,7 @@
 /* 282 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var require;var __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(process, global, module) {/*!
+	var __WEBPACK_AMD_DEFINE_RESULT__;var require;/* WEBPACK VAR INJECTION */(function(process, global, module) {/*!
 	 * @overview es6-promise - a tiny implementation of Promises/A+.
 	 * @copyright Copyright (c) 2014 Yehuda Katz, Tom Dale, Stefan Penner and contributors (Conversion to ES6 API by Jake Archibald)
 	 * @license   Licensed under MIT license

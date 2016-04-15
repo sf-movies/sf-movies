@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import Search from './Components/Search.js';
 import Navbar from './Components/Navbar.js';
-import Body from './Components/Body.js';
+// import Body from './Components/Body.js';
 
 class Main extends React.Component{
   render() {
@@ -10,7 +10,6 @@ class Main extends React.Component{
       <div>
         <Navbar />
         <Search />
-        <Body />
       </div>
     )
   }

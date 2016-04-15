@@ -5,7 +5,7 @@ class Navbar extends React.Component {
     return (
       <div className="navbar">
         <h1 className="title">SF Movie Map</h1>
-        <h2 className="about">About</h2>
+        <h2 style={{width: '100px'}}className="about">about</h2>
       </div>
     )
   }

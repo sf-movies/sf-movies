@@ -20102,7 +20102,7 @@
 	        _react2.default.createElement(
 	          "form",
 	          null,
-	          _react2.default.createElement("input", { className: "search", type: "text", placeholder: "FUUUUUUCK" })
+	          _react2.default.createElement("input", { className: "search", type: "text", placeholder: "Type in a movie here..." })
 	        )
 	      );
 	    }
@@ -20151,7 +20151,7 @@
 	    value: function render() {
 	      return _react2.default.createElement(
 	        "div",
-	        null,
+	        { className: "navbar" },
 	        _react2.default.createElement(
 	          "h1",
 	          { className: "title" },
@@ -20159,7 +20159,7 @@
 	        ),
 	        _react2.default.createElement(
 	          "h2",
-	          { classname: "about" },
+	          { className: "about" },
 	          "About"
 	        )
 	      );

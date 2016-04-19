@@ -1,18 +1,26 @@
-var React = require('react');
+import React from 'react';
+import Body from './Body.js';
 
-var Search = React.createClass({
+class Search extends React.Component {
 
-  render: function() {
+  handleSubmit(e) {
+    e.preventDefault();
+    console.log(e.target.value);
+  }
+
+  render() {
     return (
         <div>
           <form>
-            <input onChange={bind(this)}
+            <input onChange={this.handleSubmit}
             className="search" type="text"
             placeholder="Type in a movie here..."/>
           </form>
+          <Body />
         </div>
+
     )
   }
-});
+};
 
 export default Search;

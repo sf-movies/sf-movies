@@ -1,17 +1,26 @@
-import React, {PropTypes, Component} from 'react';
+import React from 'react';
 import Body from './Body.js';
 
 class Search extends React.Component {
-  render(){
+
+  handleSubmit(e) {
+    e.preventDefault();
+    console.log(e.target.value);
+  }
+
+  render() {
     return (
         <div>
           <form>
-            <input className="search" type="text" placeholder="Type in a movie here..."/>
+            <input onChange={this.handleSubmit}
+            className="search" type="text"
+            placeholder="Type in a movie here..."/>
           </form>
           <Body />
         </div>
-    );
+
+    )
   }
-}
+};
 
 export default Search;

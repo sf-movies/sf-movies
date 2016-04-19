@@ -8,6 +8,10 @@ app.use(logger());
 
 app.use(express.static('static'));
 
+app.post('/movie', function(req, res) {
+  console.log(req.body);
+});
+
 var server = app.listen(PORT, function() {
   console.log('Server is running at http://localhost' + server.address().port)
 });

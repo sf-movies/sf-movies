@@ -2,7 +2,7 @@ module.exports = {
   entry: "./static/Main.js",
   output: {
     path: __dirname,
-    filename: "bundle.js"
+    filename: "./static/bundle.js"
   },
   watch: true,
   module: {

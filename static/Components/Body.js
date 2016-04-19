@@ -1,6 +1,7 @@
-import React, {PropTypes, Component} from 'react';
+import React from 'react';
 import GoogleMap from 'google-map-react';
 import FontAwesome from 'react-fontawesome';
+
 
 class Body extends React.Component {
   render(){

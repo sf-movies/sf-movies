@@ -1,17 +1,18 @@
-import React, {PropTypes, Component} from 'react';
-import Body from './Body.js';
+var React = require('react');
 
-class Search extends React.Component {
-  render(){
+var Search = React.createClass({
+
+  render: function() {
     return (
         <div>
           <form>
-            <input className="search" type="text" placeholder="Type in a movie here..."/>
+            <input onChange={bind(this)}
+            className="search" type="text"
+            placeholder="Type in a movie here..."/>
           </form>
-          <Body />
         </div>
-    );
+    )
   }
-}
+});
 
 export default Search;

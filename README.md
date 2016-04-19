@@ -28,4 +28,4 @@ The application will now appear!
 This project was built by two awesome software engineers:
 
   * Jonathan Tamsut | [GithHub](https://github.com/jtamsut) | [LinkedIn](https://www.linkedin.com/in/jtamsut)
-  * Daniel Russell | [GithHub](https://github.com/danielrussellLA) |  [LinkedIn]([LinkedIn](https://www.linkedin.com/in/jtamsut))
+  * Daniel Russell | [GithHub](https://github.com/danielrussellLA) |  [LinkedIn](https://www.linkedin.com/in/danielrussellla))

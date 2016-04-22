@@ -2,7 +2,7 @@ const MongoClient = require('mongodb').MongoClient;
 const assert = require('assert');
 const url = 'mongodb://localhost:27017/sfdata';
 
-MongoClient.connect(url, function(err, db) {
+module.exports = MongoClient.connect(url, function(err, db) {
   assert.equal(err, null);
   console.log('Looks like we have successfully\nconnected to MongoDB!');
 

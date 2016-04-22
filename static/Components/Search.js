@@ -12,7 +12,7 @@ class Search extends React.Component {
       movie: title
     })
     .then(function(response) {
-      console.log("Success!");
+      console.log("Response", response.data);
     })
     .catch(function(response) {
       console.log("Looks like we have an error!")
